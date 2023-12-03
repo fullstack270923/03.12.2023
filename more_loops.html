@@ -6,7 +6,7 @@
 </head>
 <body>
     <script>
-        //            0    1    2    3    4    5
+        //            0    1    2    3    4    5   lenght: 6
         const arr = ['a', 'b', 'c', 'd', 'e', 'f']
         // document.write(arr[0])
         // document.write(arr[1])
@@ -18,12 +18,21 @@
         for (let index = 0; index < arr.length; index++) {
             document.write(arr[index] + ' ')
         }
+        document.write('<br />')
 
         // create a list of numbers
         // use a for loop to document write each element
         // write each element in a separate line
         // try using code snippet
-        
+        const numbers = [1, 5, -9, 40.4, 113333, 2.221, 3, 7, -100]
+        for (let i = 0; i < numbers.length; i++) {
+            document.write(numbers[ i ] + '<br />')
+        }
+
+        let sum = 0
+        for (let i = 0; i < numbers.length; i++) {
+            sum += numbers[ i ]
+        }
     </script>
 </body>
 </html>
