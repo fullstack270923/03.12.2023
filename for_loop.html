@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home work solution</title>
+</head>
+
+<body>
+
+    <script>
+        // not good to use FOR loop in this case:
+        // x = parseInt(prompt('Enter Positive number: '))
+        // while (x <= 0) {
+        //     x = parseInt(prompt('Enter Positive number: '))
+        // }
+
+        // for loop is for specific range
+        let x = 1 // 1
+        while (x <= 99) { // 2
+            //document.write(x++ + ' ')
+            document.write(x + ' ')
+            x++ // 3
+        }
+        document.write('<br/>')
+
+        for (let x = 1; x <= 99; x++ )  {
+            document.write(x + ' ')
+         }
+        document.write('<br/>')
+
+        for (let x = 2; x <= 98; x += 2)  {
+            document.write(x + ' ')
+         }
+        document.write('<br/>')        
+
+         // implement in for loop 
+         // exercises 3-4
+
+    </script>
+
+</body>
+
+</html>
