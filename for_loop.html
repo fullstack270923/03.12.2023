@@ -24,18 +24,41 @@
         }
         document.write('<br/>')
 
-        for (let x = 1; x <= 99; x++ )  {
+        for (let x = 1; x <= 99; x++) {
             document.write(x + ' ')
-         }
+        }
         document.write('<br/>')
 
-        for (let x = 2; x <= 98; x += 2)  {
+        for (let x = 2; x <= 98; x += 2) {
             document.write(x + ' ')
-         }
-        document.write('<br/>')        
+        }
+        document.write('<br/>')
 
-         // implement in for loop 
-         // exercises 3-4
+        // implement in for loop 
+        // exercises 3-4
+        // ----------- 3: zugi 2 .. 99
+        
+        for (let x = 2; x <= 98; x += 2) {
+            document.write(x + ' ')
+        }
+        document.write('<br/>')
+
+        // ----------- 4: input number > 0 .. 0 , etgar
+        x = parseInt(prompt('Enter Positive number: '))
+        while (x <= 0) {
+            x = parseInt(prompt('Enter Positive number: '))
+        }
+        
+        for (let x = parseInt(prompt('Enter Positive number: ')); x >= 0; x--) {
+            document.write('<br/>')
+        }
+
+        while (prompt('whats your name: ') != 'itay') {
+            console.log('wrong name');
+        }
+        for(;prompt('whats your name: ') != 'itay';) {
+            
+        }
 
     </script>
 
