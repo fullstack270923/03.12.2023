@@ -16,11 +16,11 @@
         // }
 
         // do-while
-        let x
-        do {
-            x = parseInt(prompt('Enter Positive number: '))
-        }
-        while (x <= 0)
+        // let x
+        // do {
+        //     x = parseInt(prompt('Enter Positive number: '))
+        // }
+        // while (x <= 0)
 
         // in a do while loop
         // 1.
@@ -30,6 +30,18 @@
         // input 2 numbers
         // keep going until both numbers are greater than 100
 
+        let x, y
+        do {
+            x = parseInt(prompt('Enter Even number [x]: '))
+            y = parseInt(prompt('Enter Even number [y]: '))
+        }
+        while (x % 2 != 0 || y % 2 != 0)
+
+        do {
+            x = parseInt(prompt('Enter a number larger than 100 [x]: '))
+            y = parseInt(prompt('Enter a number larger than 100 [y]: '))
+        }
+        while (x <= 100 || y <= 100)
     </script>
 
 </body>
